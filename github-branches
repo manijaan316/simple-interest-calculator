@@ -1,0 +1,16 @@
+$ git branch -a
+* main
+  bug-fix-typo
+  remotes/origin/main
+  remotes/origin/bug-fix-typo
+
+$ git branch -v
+* main                 a1b2c3d [ahead 1] Merge branch 'bug-fix-typo'
+  bug-fix-typo         4e5f6g7 Fix typo in README
+
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
