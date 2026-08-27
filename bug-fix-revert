@@ -1,0 +1,52 @@
+$ curl -L https://api.github.com/repos/manijaan316/simple-interest-calculator/pulls
+
+[
+  {
+    "id": 1234567890,
+    "number": 1,
+    "state": "open",
+    "title": "Bug fix: Correct typo in README",
+    "body": "This pull request fixes a typo in the README.md file.",
+    "created_at": "2026-08-27T10:00:00Z",
+    "updated_at": "2026-08-27T10:30:00Z",
+    "user": {
+      "login": "manijaan316",
+      "html_url": "https://github.com/manijaan316"
+    },
+    "head": {
+      "label": "manijaan316:bug-fix-typo",
+      "ref": "bug-fix-typo",
+      "sha": "a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0",
+      "repo": {
+        "id": 1346839187,
+        "name": "simple-interest-calculator",
+        "full_name": "manijaan316/simple-interest-calculator",
+        "private": false,
+        "fork": true,
+        "html_url": "https://github.com/manijaan316/simple-interest-calculator",
+        "parent": {
+          "full_name": "ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub"
+        }
+      }
+    },
+    "base": {
+      "label": "manijaan316:main",
+      "ref": "main",
+      "sha": "z9y8x7w6v5u4t3s2r1q0p9o8n7m6l5k4j3i2h1",
+      "repo": {
+        "id": 1346839187,
+        "name": "simple-interest-calculator",
+        "full_name": "manijaan316/simple-interest-calculator",
+        "private": false,
+        "fork": true,
+        "html_url": "https://github.com/manijaan316/simple-interest-calculator"
+      }
+    },
+    "merged": false,
+    "mergeable": true,
+    "mergeable_state": "clean",
+    "comments": 0,
+    "commits": 1,
+    "changed_files": 1
+  }
+]
