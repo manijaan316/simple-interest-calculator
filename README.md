@@ -14,3 +14,8 @@ $$\text{Simple Interest} = \frac{P \times R \times T}{100}$$
 2. Enter the annual interest rate.
 3. Enter the duration in years.
 4. Calculate to get the total interest and final amount.
+
+## How to Run
+Run the following command in your terminal:
+```bash
+python simple_interest.py
